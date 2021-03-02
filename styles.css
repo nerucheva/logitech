@@ -1,0 +1,96 @@
+/* ******************* COLOUR VARIABLES *********************** */
+:root {
+  --white: #ffffff; /* just white */
+  --gray-pale: #ededed; /* background gray */
+  --gray-top: #e0e1e2; /*  */
+  --gray: #c4c4c4; /* decorative heading, pale dots */
+  --gray-dark: #2f3132; /* title, texts, dark dots */
+  --black: #000000; /* text and links */
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--gray-top);
+  padding: 25px 0 0;
+}
+
+.top {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: var(--gray-top);
+  padding: 94px 0 48px;
+}
+
+.top__image {
+  background-image: url(./img/img-01-mx-master.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 230px;
+}
+
+.top__image h2 {
+  margin: 0 0 274px;
+}
+
+.top p {
+  margin: 67px 59px 48px;
+}
+
+/* .top img {
+  width: 39.31px;
+  height: auto;
+} */
+
+.bluetooth {
+  background-color: var(--gray-pale);
+  background-image: url(./img/img-02-left-graphite.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 42px 0 236px;
+}
+
+.bluetooth h2 {
+  padding: 27px 0 20px;
+}
+
+.bluetooth p {
+  padding: 0 34px 31px;
+}
+
+.big-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--gray);
+}
