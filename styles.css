@@ -87,7 +87,7 @@ header {
 }
 
 .surface__features-text {
-  margin: 0;
+  margin: 5px 0 0;
 }
 
 .surface .subtitle {
@@ -133,4 +133,60 @@ header {
 
 .usability__howto-text {
   text-align: left;
+}
+
+.settings {
+  background-color: var(--gray-pale);
+  padding-top: 70px;
+}
+
+.settings__text {
+  padding: 20px 34px 35px;
+}
+
+.settings__carousel {
+  padding: 0 23px 0;
+  margin: 0 0 60px;
+}
+
+.settings__programms {
+  background-color: var(--gray);
+}
+
+.settings__programms-icons {
+  list-style-type: none;
+  padding: 23px 25px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.settings__programms-text {
+  margin: 0;
+  color: var(--white);
+  padding: 20px 34px 26px;
+}
+
+.comfort {
+  background-image: url(./img/img-04-lifestyle-2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 310px;
+}
+
+.speed {
+  background-image: url(./img/img-05-top.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 310px;
+}
+
+.advantages__title {
+  padding: 70px 0 0;
+}
+
+.advantages__text {
+  padding: 20px 34px;
+  margin: 0;
 }
