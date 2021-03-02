@@ -15,7 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./global_styles.css">
     <link rel="stylesheet" href="./styles.css" />
+
     <title>Logitech MX Master 3</title>
   </head>
   <body>
@@ -36,12 +38,106 @@
       </section>
 
       <section class="bluetooth screen">
-        <img src="./img/icon-bluetooth.svg" alt="bluetooth">
+        <img src="./img/icon-bluetooth.svg" alt="bluetooth" />
         <h2 class="title">без проводов</h2>
         <p class="text">
-          Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.
+          Беспроводная мышь MX Master 3 работает без проводов до нескольких
+          месяцев. Вы закроете приоритетные задачи прежде, чем понадобится
+          подзарядка.
         </p>
         <h3 class="big-text">70 дней</h3>
+      </section>
+      <section class="surface">
+        <h2 class="title">за любым столом</h2>
+        <p class="text surface__text">
+          Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3
+          достаточно компактная, чтобы сменить рабочее место и перенестись с
+          ноутбуком на кухню.
+        </p>
+        <ul class="surface__features">
+          <li>
+            <h2 class="title">в 5 раз</h2>
+            <p class="text surface__features-text">точнее предшественников</p>
+          </li>
+          <li>
+            <h2 class="title">4000</h2>
+            <p class="text surface__features-text">точек на дюйм чувствительность датчика</p>
+          </li>
+        </ul>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/slider-1-01-wood.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/slider-1-02-glass.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/slider-1-03-linoleum.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h3 class="subtitle">Переключите поверхность</h3>
+        <p class="text surface__text-bottom">
+          Благодаря технологии Logitecch Darkfierd, MX Master 3 работает на
+          любой поверхности, даже на стекле.
+        </p>
       </section>
     </main>
 

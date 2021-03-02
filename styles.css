@@ -1,38 +1,3 @@
-/* ******************* COLOUR VARIABLES *********************** */
-:root {
-  --white: #ffffff; /* just white */
-  --gray-pale: #ededed; /* background gray */
-  --gray-top: #e0e1e2; /*  */
-  --gray: #c4c4c4; /* decorative heading, pale dots */
-  --gray-dark: #2f3132; /* title, texts, dark dots */
-  --black: #000000; /* text and links */
-}
-
-.screen {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -42,8 +7,6 @@ header {
 }
 
 .top {
-  /* display: flex;
-  flex-direction: column; */
   background-color: var(--gray-top);
   padding: 94px 0 48px;
 }
@@ -62,11 +25,6 @@ header {
 .top p {
   margin: 67px 59px 48px;
 }
-
-/* .top img {
-  width: 39.31px;
-  height: auto;
-} */
 
 .bluetooth {
   background-color: var(--gray-pale);
@@ -93,4 +51,57 @@ header {
   text-align: center;
   text-transform: uppercase;
   color: var(--gray);
+}
+
+.surface {
+  padding: 70px 0 63px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.surface__text {
+  padding: 20px 64px 30px;
+  margin: 0;
+}
+
+.surface__features {
+  padding: 0 18px 0;
+  margin: 0 0 28px;
+  list-style-type: none;
+  display: flex;
+  gap: 6px;
+}
+
+.surface__features li {
+  /* width: 50%; */
+  width: 165px;
+  min-height: 94px;
+  padding: 9px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid #2f3132;
+}
+
+.surface__features-text {
+  margin: 0;
+}
+
+.surface .subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--gray-dark);
+  padding: 28px 0 70px;
+}
+
+.surface__text-bottom {
+  padding: 0 34px;
+  margin: 0;
 }
