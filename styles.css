@@ -105,3 +105,32 @@ header {
   padding: 0 34px;
   margin: 0;
 }
+
+.usability {
+  background-color: var(--gray-pale);
+  background-image: url(./img/img-03-lifestyle-1.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 70px 0 218px;
+}
+
+.usability p {
+  padding: 20px 34px 36px;
+}
+
+.howto {
+  margin: 0;
+  padding: 0 54px 0;
+}
+
+.howto li {
+  padding: 0 0 16px;
+}
+
+.howto li:last-child {
+  padding: 0;
+}
+
+.usability__howto-text {
+  text-align: left;
+}
