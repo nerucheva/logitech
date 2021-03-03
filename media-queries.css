@@ -8,6 +8,10 @@
     padding: 0;
   }
 
+  .settings__carousel {
+/* padding: 0; */
+  }
+
   .settings__programms-icons {
     width: 100%;
     min-width: 320px;
