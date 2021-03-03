@@ -12,6 +12,15 @@
     width: 100%;
     min-width: 320px;
   }
+
+  .carousel-indicators {
+    width: 70%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
 }
 
 /* @media all and (min-width:390 and max-width: 374px) { */

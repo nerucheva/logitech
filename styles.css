@@ -91,6 +91,62 @@ header {
   width: 100%;
 }
 
+.carousel-indicators {
+  bottom: -122px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 55px;
+  padding-left: 55px; */
+  padding-bottom: 16px;
+  width: 265px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 1;
+  /* margin-left: 22px;
+  margin-right: 22px; */
+}
+
+.carousel-indicators [data-bs-target] img {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  align-items: flex-end;
+  bottom: -92px;
+  opacity: 1;
+  width: calc(50% - 155px);
+}
+
+.carousel-control-prev {
+  justify-content: flex-end;
+}
+
+.carousel-control-next {
+  justify-content: flex-start;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 13px;
+  height: 22px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(./img/icon-arrow-left.svg);
+}
+
+.carousel-control-next-icon {
+  background-image: url(./img/icon-arrow-right.svg);
+}
 
 .surface .subtitle {
   font-family: "Roboto";
@@ -101,6 +157,7 @@ header {
   text-align: center;
   color: var(--graphite);
   padding: 28px 0 70px;
+  margin: 0;
 }
 
 .surface__text-bottom {
@@ -188,7 +245,7 @@ header {
 }
 
 .advantages__title {
-  padding: 70px 0 0;
+  padding-top: 70px;
 }
 
 .advantages__text {

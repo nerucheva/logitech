@@ -19,6 +19,13 @@
   color: var(--graphite);
 }
 
+@media all and (max-width: 374px) {
+  .title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 /* ******************* TEXT *********************** */
 .text {
   font-family: "Roboto";
