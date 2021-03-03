@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 /* ******************* TITLE *********************** */
@@ -15,6 +16,7 @@
   text-align: center;
   text-transform: uppercase;
   margin: 0;
+  color: var(--graphite);
 }
 
 /* ******************* TEXT *********************** */
@@ -25,14 +27,21 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  color: var(--graphite);
+}
+
+/* ******************* CONTENT WIDTH *********************** */
+
+.content-width {
+  max-width: 375px;
 }
 
 /* ******************* COLOUR VARIABLES *********************** */
 :root {
   --white: #ffffff; /* just white */
-  --gray-pale: #ededed; /* background gray */
-  --gray-top: #e0e1e2; /*  */
-  --gray: #c4c4c4; /* decorative heading, pale dots */
-  --gray-dark: #2f3132; /* title, texts, dark dots */
-  --black: #000000; /* text and links */
+  --light-gray: #ededed; /* background gray */
+  --bg-gray: #e0e1e2; /*  */
+  --dark-gray: #c4c4c4; /* decorative heading, pale dots */
+  --graphite: #2f3132; /* title, texts, dark dots */
+  /* --black: #000000; text and links */
 }

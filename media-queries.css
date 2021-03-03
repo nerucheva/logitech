@@ -1,0 +1,17 @@
+/* ******************* < 375px *********************** */
+@media all and (max-width: 374px) {
+  .surface__features {
+    padding: 0 10px 0;
+  }
+
+  .surface__features li {
+    padding: 0;
+  }
+
+  .settings__programms-icons {
+    width: 100%;
+    min-width: 320px;
+  }
+}
+
+/* @media all and (min-width:390 and max-width: 374px) { */

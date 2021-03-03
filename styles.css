@@ -2,12 +2,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--gray-top);
+  background-color: var(--bg-gray);
   padding: 25px 0 0;
 }
 
 .top {
-  background-color: var(--gray-top);
+  background-color: var(--bg-gray);
   padding: 94px 0 48px;
 }
 
@@ -24,10 +24,11 @@ header {
 
 .top p {
   margin: 67px 59px 48px;
+  max-width: 257px;
 }
 
 .bluetooth {
-  background-color: var(--gray-pale);
+  background-color: var(--light-gray);
   background-image: url(./img/img-02-left-graphite.png);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -40,6 +41,7 @@ header {
 
 .bluetooth p {
   padding: 0 34px 31px;
+  max-width: 307px;
 }
 
 .big-text {
@@ -50,15 +52,11 @@ header {
   line-height: 70px;
   text-align: center;
   text-transform: uppercase;
-  color: var(--gray);
+  color: var(--dark-gray);
 }
 
 .surface {
   padding: 70px 0 63px;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
 }
 
 .surface__text {
@@ -68,6 +66,7 @@ header {
 
 .surface__features {
   padding: 0 18px 0;
+  /* padding: 0; */
   margin: 0 0 28px;
   list-style-type: none;
   display: flex;
@@ -75,20 +74,23 @@ header {
 }
 
 .surface__features li {
-  /* width: 50%; */
-  width: 165px;
+  width: 50%;
   min-height: 94px;
   padding: 9px 17px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   border: 1px solid #2f3132;
 }
 
 .surface__features-text {
   margin: 5px 0 0;
 }
+
+.surface__slider {
+  width: 100%;
+}
+
 
 .surface .subtitle {
   font-family: "Roboto";
@@ -97,7 +99,7 @@ header {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: var(--gray-dark);
+  color: var(--graphite);
   padding: 28px 0 70px;
 }
 
@@ -107,7 +109,7 @@ header {
 }
 
 .usability {
-  background-color: var(--gray-pale);
+  background-color: var(--light-gray);
   background-image: url(./img/img-03-lifestyle-1.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -136,12 +138,13 @@ header {
 }
 
 .settings {
-  background-color: var(--gray-pale);
+  background-color: var(--light-gray);
   padding-top: 70px;
 }
 
 .settings__text {
   padding: 20px 34px 35px;
+  margin: 0;
 }
 
 .settings__carousel {
@@ -150,13 +153,15 @@ header {
 }
 
 .settings__programms {
-  background-color: var(--gray);
+  background-color: var(--dark-gray);
+  width: 100vw;
 }
 
 .settings__programms-icons {
   list-style-type: none;
   padding: 23px 25px 0;
   margin: 0;
+  width: 375px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -192,7 +197,7 @@ header {
 }
 
 footer {
-  background-color: var(--gray-dark);
+  background-color: var(--graphite);
   height: 75px;
 }
 

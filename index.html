@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="./global_styles.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./media-queries.css">
 
     <title>Logitech MX Master 3</title>
   </head>
@@ -34,10 +35,12 @@
         <p class="text">
           Создана для эффективной работы, программирования и творчества
         </p>
-        <img src="./img/icon-arrow.svg" alt="arrow" />
+        <a href="#bluetooth">
+          <img src="./img/icon-arrow.svg" alt="arrow" />
+        </a>
       </section>
 
-      <section class="bluetooth screen">
+      <section class="bluetooth screen" id="bluetooth">
         <img src="./img/icon-bluetooth.svg" alt="bluetooth" />
         <h2 class="title">без проводов</h2>
         <p class="text">
@@ -47,14 +50,14 @@
         </p>
         <h3 class="big-text">70 дней</h3>
       </section>
-      <section class="surface">
+      <section class="surface screen">
         <h2 class="title">за любым столом</h2>
-        <p class="text surface__text">
+        <p class="text surface__text content-width">
           Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3
           достаточно компактная, чтобы сменить рабочее место и перенестись с
           ноутбуком на кухню.
         </p>
-        <ul class="surface__features">
+        <ul class="surface__features content-width">
           <li>
             <h2 class="title">в 5 раз</h2>
             <p class="text surface__features-text">точнее предшественников</p>
@@ -67,14 +70,14 @@
           </li>
         </ul>
         <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
+          id="surface__slider"
+          class="carousel slide surface__slider"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#surface__slider"
               data-bs-slide-to="0"
               class="active"
               aria-current="true"
@@ -82,13 +85,13 @@
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#surface__slider"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#surface__slider"
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
@@ -119,7 +122,7 @@
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#surface__slider"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -128,7 +131,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#surface__slider"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -136,15 +139,15 @@
           </button>
         </div>
         <h3 class="subtitle">Переключите поверхность</h3>
-        <p class="text surface__text-bottom">
+        <p class="text surface__text-bottom content-width">
           Благодаря технологии Logitecch Darkfierd, MX Master 3 работает на
           любой поверхности, даже на стекле.
         </p>
       </section>
 
-      <section class="usability">
-        <h2 class="title">одновременно с нескольких устройств</h2>
-        <p class="text">
+      <section class="usability screen">
+        <h2 class="title content-width">одновременно с нескольких устройств</h2>
+        <p class="text content-width">
           С технологией Flow вы сможете работать одновременно на нескольких
           компьютерах, мгновенно переключаясь между разными операционными
           системами — даже между Windows® и macOS. Например, достаточно
@@ -154,7 +157,7 @@
           благодаря чему ваш текст появится там, где вы работаете в текущий
           момент.
         </p>
-        <ol class="howto">
+        <ol class="howto content-width">
           <li class="text usability__howto-text">
             Нажмите и удерживайте папку, <br />
             чтобы переместить её
@@ -166,22 +169,22 @@
         </ol>
       </section>
 
-      <section class="settings">
-        <h2 class="title">с индивидуальными настройками</h2>
-        <p class="text settings__text">
+      <section class="settings screen">
+        <h2 class="title content-width">с индивидуальными настройками</h2>
+        <p class="text settings__text content-width">
           Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
           индивидуальным настройкам, вы сможете настроить кнопки и жесты
           практически под любое используемое приложение.
         </p>
         <div
-          id="carouselExampleIndicators"
+          id="settings__slider"
           class="carousel slide settings__carousel"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#settings__slider"
               data-bs-slide-to="0"
               class="active"
               aria-current="true"
@@ -189,13 +192,13 @@
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#settings__slider"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#settings__slider"
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
@@ -226,7 +229,7 @@
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#settings__slider"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -235,7 +238,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target="#settings__slider"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -243,7 +246,7 @@
           </button>
         </div>
 
-        <div class="settings__programms">
+        <div class="settings__programms screen">
           <ul class="settings__programms-icons">
             <li><img src="./img/icon-01-ps.svg" alt="ps" /></li>
             <li>
@@ -289,7 +292,7 @@
               />
             </li>
           </ul>
-          <p class="text settings__programms-text">
+          <p class="text settings__programms-text content-width">
             Начните работать продуктивнее с момента покупки — устройство
             предварительно оптимизировано под популярные приложения на Windows и
             Mac.
@@ -298,20 +301,20 @@
       </section>
 
       <section class="advantages">
-        <div class="comfort">
-          <h2 class="title advantages__title">
+        <div class="comfort screen">
+          <h2 class="title advantages__title content-width">
             комфортно. эргономично. интуитивно.
           </h2>
-          <p class="text advantages__text">
+          <p class="text advantages__text content-width">
             Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять
             форму вашей ладони. Но не менее важны колесико прокрутки для
             большого пальца и расположение кнопок жестов, с которыми вы будете
             творить уверенно как никогда.
           </p>
         </div>
-        <div class="speed">
-          <h2 class="title advantages__title">быстрее, чем когда-либо</h2>
-          <p class="text advantages__text">
+        <div class="speed screen">
+          <h2 class="title advantages__title content-width">быстрее, чем когда-либо</h2>
+          <p class="text advantages__text content-width">
             Компьютерная мышь MX Master 3 предлагает ультимативный механизм
             прокрутки со скоростью 1000 строк за 1 секунду. С точностью до
             пикселя. Бесшумно.
