@@ -27,4 +27,14 @@
   }
 }
 
-/* @media all and (min-width:390 and max-width: 374px) { */
+@media all and (min-width: 664px) {
+  .comfort {
+    background-image: url(./img/img-04-lifestyle-2-big.jpg);
+    padding-bottom: 62vw;
+  }
+
+  .speed {
+    background-image: url(./img/img-05-top-big.jpg);
+    padding-bottom: 62vw;
+  }
+}

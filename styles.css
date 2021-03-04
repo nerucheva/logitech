@@ -66,7 +66,6 @@ header {
 
 .surface__features {
   padding: 0 18px 0;
-  /* padding: 0; */
   margin: 0 0 28px;
   list-style-type: none;
   display: flex;
@@ -96,8 +95,6 @@ header {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  /* padding-right: 55px;
-  padding-left: 55px; */
   padding-bottom: 16px;
   width: 265px;
 }
@@ -108,8 +105,6 @@ header {
   border-radius: 50%;
   overflow: hidden;
   opacity: 1;
-  /* margin-left: 22px;
-  margin-right: 22px; */
 }
 
 .carousel-indicators [data-bs-target] img {
@@ -167,10 +162,12 @@ header {
 
 .usability {
   background-color: var(--light-gray);
-  background-image: url(./img/img-03-lifestyle-1.jpg);
+  background-image: url(./img/img-03-lifestyle-1-big.png);
+  background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
-  padding: 70px 0 218px;
+  padding-top: 70px;
+  padding-bottom: 50vw;
 }
 
 .usability p {
@@ -211,12 +208,6 @@ header {
 
 .settings__carousel .carousel-indicators {
   bottom: -65px;
-  /* margin: auto; */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* padding-right: 55px;
-  padding-left: 55px; */
-  /* padding-bottom: 16px; */
   width: 165px;
 }
 
@@ -229,15 +220,6 @@ header {
 .settings__carousel .carousel-indicators .active {
   background-color: var(--graphite);
 }
-
-.settings__carousel .carousel-item {
-  /* border: 1px solid red; */
-}
-
-/* .settings__carousel .carousel-item img {
-  height: 330px;
-  width: auto;
-} */
 
 .settings__programms {
   background-color: var(--dark-gray);
@@ -265,14 +247,16 @@ header {
   background-image: url(./img/img-04-lifestyle-2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-bottom: 310px;
+  background-size: contain;
+  padding-bottom: 83vw;
 }
 
 .speed {
   background-image: url(./img/img-05-top.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-bottom: 310px;
+  background-size: contain;
+  padding-bottom: 83vw;
 }
 
 .advantages__title {
