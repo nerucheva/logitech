@@ -26,6 +26,13 @@
   }
 }
 
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
 /* ******************* TEXT *********************** */
 .text {
   font-family: "Roboto";
@@ -37,10 +44,23 @@
   color: var(--graphite);
 }
 
+@media all and (min-width: 768px) {
+  .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
 /* ******************* CONTENT WIDTH *********************** */
 
 .content-width {
   max-width: 375px;
+}
+
+@media all and (min-width: 768px) {
+  .content-width {
+    max-width: 768px;
+  }
 }
 
 /* ******************* COLOUR VARIABLES *********************** */

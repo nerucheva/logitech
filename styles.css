@@ -35,6 +35,10 @@ header {
   padding: 42px 0 236px;
 }
 
+.bluetooth img {
+  height: 34px;
+}
+
 .bluetooth h2 {
   padding: 27px 0 20px;
 }
