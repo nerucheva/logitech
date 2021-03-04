@@ -44,6 +44,10 @@
     padding: 54px 0 0;
   }
 
+  header img {
+    width: 240px;
+  }
+
   .top {
     background-color: var(--bg-gray);
     padding: 159px 0 80px;
@@ -88,5 +92,138 @@
   .big-text {
     font-size: 150px;
     line-height: 176px;
+  }
+
+  .surface__text {
+    padding: 30px 77px 50px;
+  }
+
+  .surface__features {
+    margin: 0 0 50px;
+    gap: 30px;
+  }
+
+  .surface__features li {
+    padding: 17px 32px 24px;
+    max-width: 300px;
+  }
+
+  .surface .subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 50px 0 85px;
+  }
+
+  .carousel-indicators {
+    bottom: -169px;
+    width: 320px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-indicators [data-bs-target] img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    bottom: -134px;
+    width: calc(50% - 185px);
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 14px;
+    height: 26px;
+  }
+
+  .usability p {
+    padding: 30px 65px 70px;
+  }
+
+  .howto {
+    display: flex;
+    list-style-position: inside;
+    padding: 0 25px;
+  }
+
+  .howto li {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 8px 21px 4px 28px;
+    width: auto;
+    border-left: 1px solid #494949;
+  }
+
+  .howto li:first-child {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .howto li:last-child {
+    padding-right: 0;
+    padding-left: 22px;
+  }
+
+  .settings__text {
+    padding: 30px 60px 54px;
+  }
+
+  .settings__carousel .carousel-indicators {
+    width: 275px;
+  }
+
+  .settings__carousel .carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+  }
+
+  .settings__programms {
+    margin-top: 70px;
+  }
+
+  .settings__programms-icons {
+    padding: 38px 25px 0;
+    /* width: 512px; */
+  }
+
+  .settings__programms-icons li img {
+    height: 35px;
+    width: auto;
+  }
+
+  .settings__programms-text {
+    margin: 0;
+    color: var(--white);
+    padding: 25px 34px 29px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .advantages__text {
+    padding: 30px 70px 50px;
+    max-width: 739px;
+  }
+
+  footer p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+/* ******************* > 894px *********************** */
+
+@media all and (min-width: 894px) {
+  .settings__programms {
+    margin-bottom: 70px;
+    max-width: 765px;
+  }
+
+  .settings__programms-icons {
+    width: 512px;
   }
 }

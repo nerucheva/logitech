@@ -60,6 +60,7 @@
 @media all and (min-width: 768px) {
   .content-width {
     max-width: 768px;
+    box-sizing: content-box;
   }
 }
 
