@@ -45,7 +45,7 @@
       <!-- <a href="#"><img src="./img/icon-menu-burger.svg" alt="menu" /></a> -->
     </header>
     <main>
-      <section class="top screen">
+      <section class="top screen hide">
         <div class="top__image">
           <h2 class="title">работайте продуктивнее</h2>
         </div>
@@ -58,7 +58,7 @@
         </a>
       </section>
 
-      <section class="bluetooth screen" id="bluetooth">
+      <section class="bluetooth screen hide" id="bluetooth">
         <img src="./img/icon-bluetooth.svg" alt="bluetooth" />
         <h2 class="title">без проводов</h2>
         <p class="text">
@@ -73,7 +73,7 @@
 
         <div class="bluetooth__image content-width"></div>
       </section>
-      <section class="surface screen">
+      <section class="surface screen hide">
         <h2 class="title">за любым столом</h2>
         <p class="text surface__text content-width">
           Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3
@@ -143,39 +143,69 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="./img/slider-1-01-wood.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <picture>
+                <source
+                  srcset="./img/slider-1-01-wood-extra.png"
+                  media="(min-width: 895px)"
+                />
+                <img
+                  src="./img/slider-1-01-wood-big.png"
+                  class="d-block w-100"
+                  alt="wood"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./img/slider-1-02-glass.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <picture>
+                <source
+                  srcset="./img/slider-1-02-glass-extra.png"
+                  media="(min-width: 895px)"
+                />
+                <img
+                  src="./img/slider-1-02-glass-big.png"
+                  class="d-block w-100"
+                  alt="glass"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./img/slider-1-03-linoleum.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <picture>
+                <source
+                  srcset="./img/slider-1-03-linoleum-extra.png"
+                  media="(min-width: 895px)"
+                />
+                <img
+                  src="./img/slider-1-03-linoleum-big.png"
+                  class="d-block w-100"
+                  alt="linoleum"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./img/slider-1-04-cloth.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <picture>
+                <source
+                  srcset="./img/slider-1-04-cloth-extra.png"
+                  media="(min-width: 895px)"
+                />
+                <img
+                  src="./img/slider-1-04-cloth-big.png"
+                  class="d-block w-100"
+                  alt="cloth"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./img/slider-1-05-marble.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <picture>
+                <source
+                  srcset="./img/slider-1-05-marble-extra.png"
+                  media="(min-width: 895px)"
+                />
+                <img
+                  src="./img/slider-1-05-marble-big.png"
+                  class="d-block w-100"
+                  alt="marble"
+                />
+              </picture>
             </div>
           </div>
           <button
@@ -204,7 +234,7 @@
         </p>
       </section>
 
-      <section class="usability screen">
+      <section class="usability screen hide">
         <h2 class="title content-width">одновременно с нескольких устройств</h2>
         <p class="text content-width">
           С технологией Flow вы сможете работать одновременно на нескольких
@@ -227,7 +257,7 @@
         </ol>
       </section>
 
-      <section class="settings screen">
+      <section class="settings screen hide">
         <h2 class="title content-width">с индивидуальными настройками</h2>
         <p class="text settings__text content-width">
           Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
@@ -281,22 +311,22 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/slider-2-01.png" class="d-block" alt="..." />
+              <img src="./img/slider-2-01-big.png" class="d-block" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./img/slider-2-02.png" class="d-block" alt="..." />
+              <img src="./img/slider-2-02-big.png" class="d-block" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./img/slider-2-03.png" class="d-block" alt="..." />
+              <img src="./img/slider-2-03-big.png" class="d-block" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./img/slider-2-04.png" class="d-block" alt="..." />
+              <img src="./img/slider-2-04-big.png" class="d-block" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./img/slider-2-05.png" class="d-block" alt="..." />
+              <img src="./img/slider-2-05-big.png" class="d-block" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./img/slider-2-06.png" class="d-block" alt="..." />
+              <img src="./img/slider-2-06-big.png" class="d-block" alt="..." />
             </div>
           </div>
         </div>
@@ -357,7 +387,7 @@
         </div>
       </section>
 
-      <section class="advantages content-width">
+      <section class="advantages content-width hide">
         <div class="comfort screen">
           <div class="comfort-content">
             <h2 class="title advantages__title content-width">

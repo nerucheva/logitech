@@ -83,6 +83,12 @@
   }
 }
 
+/* ******************* OVERFLOW HIDDEN *********************** */
+
+.hide {
+  overflow: hidden;
+}
+
 /* ******************* COLOUR VARIABLES *********************** */
 :root {
   --white: #ffffff; /* just white */
