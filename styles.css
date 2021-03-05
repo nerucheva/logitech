@@ -260,6 +260,10 @@ header img {
   padding: 20px 34px 26px;
 }
 
+.advantages {
+  margin: auto;
+}
+
 .comfort__image {
   background-image: url(./img/img-04-lifestyle-2.jpg);
   background-repeat: no-repeat;
