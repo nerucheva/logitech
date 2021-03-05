@@ -234,6 +234,10 @@ header img {
   background-color: var(--graphite);
 }
 
+.settings__image {
+  display: none;
+}
+
 .settings__programms {
   background-color: var(--dark-gray);
   width: 100vw;
@@ -256,20 +260,20 @@ header img {
   padding: 20px 34px 26px;
 }
 
-.comfort {
+.comfort__image {
   background-image: url(./img/img-04-lifestyle-2.jpg);
-  background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  padding-bottom: 83vw;
+  width: 100vw;
+  height: 83vw;
 }
 
-.speed {
+.speed__image {
   background-image: url(./img/img-05-top.jpg);
-  background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  padding-bottom: 83vw;
+  width: 100vw;
+  height: 83vw;
 }
 
 .advantages__title {

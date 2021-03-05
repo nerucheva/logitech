@@ -74,14 +74,12 @@
 @media all and (min-width: 768px) {
   .content-width {
     max-width: 768px;
-    box-sizing: content-box;
   }
 }
 
 @media all and (min-width: 1280px) {
   .content-width {
     max-width: 1280px;
-    box-sizing: content-box;
   }
 }
 

@@ -26,14 +26,14 @@
 /* ******************* > 664px *********************** */
 
 @media all and (min-width: 664px) {
-  .comfort {
+  .comfort__image {
     background-image: url(./img/img-04-lifestyle-2-big.jpg);
-    padding-bottom: 62vw;
+    height: 61.5vw;
   }
 
-  .speed {
+  .speed__image {
     background-image: url(./img/img-05-top-big.jpg);
-    padding-bottom: 62vw;
+    height: 61.5vw;
   }
 }
 
@@ -227,6 +227,7 @@
 
   .settings__programms-icons {
     width: 512px;
+    box-sizing: content-box;
   }
 }
 
@@ -283,7 +284,8 @@
     height: 307px;
     width: 100vw;
     margin-top: -232px;
-    background: url(./img/img-02-front-graphite-extra.png) no-repeat 17px 0, url(./img/img-02-left-graphite-extra.png) no-repeat 597px 0;
+    background: url(./img/img-02-front-graphite-extra.png) no-repeat 17px 0,
+      url(./img/img-02-left-graphite-extra.png) no-repeat 597px 0;
   }
 
   .big-text .big-text__number {
@@ -325,5 +327,36 @@
   }
 
   .usability {
-    padding-top: 100px;
+    background-image: url(./img/img-03-lifestyle-1-extra.png);
+  }
+
+  .usability p {
+    padding: 35px 161px 66px;
+  }
+
+  .howto {
+    padding: 0 230px;
+  }
+
+  .settings__text {
+    padding: 38px 231px 54px;
+  }
+
+  #settings__slider {
+    display: none;
+  }
+
+  .settings__image {
+    display: block;
+    height: 640px;
+    width: 100vh;
+    background-image: url(./img/mouse-features.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .settings__programms {
+    margin-top: 0;
+    max-width: 749px;
+  }
 }
