@@ -33,6 +33,13 @@
   }
 }
 
+@media all and (min-width: 1280px) {
+  .title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
 /* ******************* TEXT *********************** */
 .text {
   font-family: "Roboto";
@@ -51,6 +58,13 @@
   }
 }
 
+@media all and (min-width: 1280px) {
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
 /* ******************* CONTENT WIDTH *********************** */
 
 .content-width {
@@ -64,6 +78,13 @@
   }
 }
 
+@media all and (min-width: 1280px) {
+  .content-width {
+    max-width: 1280px;
+    box-sizing: content-box;
+  }
+}
+
 /* ******************* COLOUR VARIABLES *********************** */
 :root {
   --white: #ffffff; /* just white */
@@ -71,5 +92,4 @@
   --bg-gray: #e0e1e2; /*  */
   --dark-gray: #c4c4c4; /* decorative heading, pale dots */
   --graphite: #2f3132; /* title, texts, dark dots */
-  /* --black: #000000; text and links */
 }

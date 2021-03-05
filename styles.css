@@ -33,10 +33,7 @@ header img {
 
 .bluetooth {
   background-color: var(--light-gray);
-  background-image: url(./img/img-02-left-graphite.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  padding: 42px 0 236px;
+  padding: 42px 0 18px;
 }
 
 .bluetooth img {
@@ -50,6 +47,7 @@ header img {
 .bluetooth p {
   padding: 0 34px 31px;
   max-width: 307px;
+  margin: 0;
 }
 
 .big-text {
@@ -61,6 +59,13 @@ header img {
   text-align: center;
   text-transform: uppercase;
   color: var(--dark-gray);
+}
+
+.bluetooth__image {
+  height: 218px;
+  width: 100vw;
+  background-image: url(./img/img-02-left-graphite.png);
+  background-repeat: no-repeat;
 }
 
 .surface {

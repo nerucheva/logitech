@@ -33,7 +33,15 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><img src="./img/logo-logitech-dark.png" alt="" /></a>
+      <a href="index.html">
+        <picture>
+          <source
+            srcset="./img/logo-logitech-white.png"
+            media="(min-width: 1280px)"
+          />
+          <img src="./img/logo-logitech-dark.png" alt="logo" />
+        </picture>
+      </a>
       <!-- <a href="#"><img src="./img/icon-menu-burger.svg" alt="menu" /></a> -->
     </header>
     <main>
@@ -58,7 +66,9 @@
           месяцев. Вы закроете приоритетные задачи прежде, чем понадобится
           подзарядка.
         </p>
-        <h3 class="big-text">70 дней</h3>
+        <h3 class="big-text"><span class="big-text__number">70</span><span class="big-text__days">дней</span></h3>
+
+        <div class="bluetooth__image content-width"></div>
       </section>
       <section class="surface screen">
         <h2 class="title">за любым столом</h2>
