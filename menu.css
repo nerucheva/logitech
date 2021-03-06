@@ -1,5 +1,26 @@
+.container-fluid {
+  padding-top: 25px;
+}
+
 .container-fluid.show {
-  background-color: #ff0000;
+  background-color: var(--graphite);
+}
+
+.logo-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-left: 54px; /* like the menu/close button width */
+}
+
+.logo-global img,
+.logo-mobile {
+  width: 130px;
+  height: auto;
+}
+
+.navbar {
+  padding: 0;
 }
 
 .navbar-collapse {
@@ -11,12 +32,30 @@
   transition: height 0s;
 }
 
-.navbar-toggler .icon1,
-.navbar-toggler.collapsed .icon2 {
+.navbar-toggler .menu-icon-close,
+.navbar-toggler.collapsed .menu-icon-burger,
+.container-fluid.show .logo-mobile,
+.container-fluid .logo-global {
   display: block;
 }
 
-.navbar-toggler .icon2,
-.navbar-toggler.collapsed .icon1 {
+.navbar-toggler .menu-icon-burger,
+.navbar-toggler.collapsed .menu-icon-close,
+.container-fluid .logo-mobile,
+.container-fluid.show .logo-global {
   display: none;
+}
+
+.menu-icon-burger,
+.menu-icon-close {
+  width: 30px;
+  height: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+button.navbar-toggler:focus:not(:focus-visible) {
+  box-shadow: none;
 }
