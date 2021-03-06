@@ -1,0 +1,22 @@
+.container-fluid.show {
+  background-color: #ff0000;
+}
+
+.navbar-collapse {
+  height: 100vh;
+  z-index: 100;
+}
+
+.no-transition {
+  transition: height 0s;
+}
+
+.navbar-toggler .icon1,
+.navbar-toggler.collapsed .icon2 {
+  display: block;
+}
+
+.navbar-toggler .icon2,
+.navbar-toggler.collapsed .icon1 {
+  display: none;
+}
