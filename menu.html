@@ -19,8 +19,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./global_styles.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./media-queries.css" />
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <!-- <link rel="stylesheet" href="./media-queries.css" /> -->
     <link rel="stylesheet" href="./menu.css" />
 
     <script
@@ -33,19 +33,22 @@
     <title>Menu</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid collapsible-item no-transition">
         <div class="logo-container">
           <a class="navbar-brand" href="index.html">
             <picture class="logo-global">
               <source
                 srcset="./img/logo-logitech-white.png"
-                media="(min-width: 1280px)"
+                media="(min-width: 992px)"
               />
               <img src="./img/logo-logitech-dark.png" alt="logo" />
             </picture>
-            <img src="./img/logo-logitech-white.png" class="logo-mobile" alt="white logo">
-
+            <img
+              src="./img/logo-logitech-white.png"
+              class="logo-mobile"
+              alt="white logo"
+            />
           </a>
         </div>
 
@@ -55,20 +58,36 @@
           data-bs-toggle="collapse"
           data-bs-target=".collapsible-item"
         >
-        <img src="./img/icon-menu-burger.svg" alt="menu" class="menu-icon-burger">
-        <img src="./img/icon-menu-close.svg" alt="close" class="menu-icon-close">
+          <img
+            src="./img/icon-menu-burger.svg"
+            alt="menu"
+            class="menu-icon-burger"
+          />
+          <img
+            src="./img/icon-menu-close.svg"
+            alt="close"
+            class="menu-icon-close"
+          />
         </button>
 
         <div class="collapse navbar-collapse no-transition collapsible-item">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#"
-              >работайте без проводов</a
-            >
-            <a class="nav-link" href="#">где угодно</a>
-            <a class="nav-link" href="#">с комфортом</a>
-            <a class="nav-link" href="#">с разных устройств</a>
-            <a class="nav-link" href="#">в любое время</a>
-            <a class="nav-link" href="#">и ещё быстрее</a>
+            <div class="link">
+              <a class="nav-link active" aria-current="page" href="#"
+                >работайте без проводов</a
+              >
+            </div>
+            <div class="link"><a class="nav-link" href="#">где угодно</a></div>
+            <div class="link"><a class="nav-link" href="#">с комфортом</a></div>
+            <div class="link">
+              <a class="nav-link" href="#">с разных устройств</a>
+            </div>
+            <div class="link">
+              <a class="nav-link" href="#">в любое время</a>
+            </div>
+            <div class="link">
+              <a class="nav-link" href="#">и ещё быстрее</a>
+            </div>
           </div>
         </div>
       </div>
