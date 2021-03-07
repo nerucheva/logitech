@@ -113,9 +113,45 @@ button.navbar-toggler:focus:not(:focus-visible) {
 
 /* ******************* > 992px *********************** */
 
+@media all and (min-width: 650px) {
+  .container-fluid {
+    padding: 54px 38px 0;
+  }
+
+  .logo-global img,
+  .logo-mobile {
+    width: 240px;
+  }
+
+  .menu-icon-burger,
+  .menu-icon-close {
+    width: 60px;
+  }
+
+  .navbar-nav {
+    padding: 123px 0 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 40px;
+    line-height: 47px;
+    margin: 30px 0;
+  }
+}
+
+/* ******************* > 730px *********************** */
+
+@media all and (min-width: 730px) {
+  .container-fluid {
+    padding: 54px 58px 0;
+  }
+}
+
+/* ******************* > 992px *********************** */
+
 @media all and (min-width: 992px) {
   .container-fluid {
-    padding-top: 25px;
+    padding: 25px 62px 0;
     background-color: var(--graphite);
   }
 
@@ -124,9 +160,15 @@ button.navbar-toggler:focus:not(:focus-visible) {
     z-index: none;
   }
 
+  .logo-container {
+    padding-left: 0;
+    width: 120px;
+    flex: none;
+  }
+
   .logo-global img,
   .logo-mobile {
-    width: 150px;
+    width: 120px;
   }
 
   .navbar > .container-fluid {
@@ -143,15 +185,24 @@ button.navbar-toggler:focus:not(:focus-visible) {
   }
 
   .link {
-    padding: 0 22px;
+    padding: 0 15px;
     height: 30px;
     border-left: 1px solid #494949;
+  }
+
+  .link:first-child {
+    padding: 0 15px 0 0;
+    border-left: none;
+  }
+
+  .link:last-child {
+    padding: 0 0 0 15px;
   }
 
   .navbar-light .navbar-nav .nav-link {
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
     margin: 8px 0;
   }
@@ -160,9 +211,41 @@ button.navbar-toggler:focus:not(:focus-visible) {
   .navbar-light .navbar-nav .show > .nav-link {
     border-bottom: 1px solid var(--white);
   }
+}
+
+/* ******************* > 1200px *********************** */
+
+@media all and (min-width: 1200px) {
+  .navbar {
+    background-color: var(--graphite);
+  }
+
+  .container-fluid {
+    max-width: 1280px;
+  }
+
+  .logo-container {
+    width: 150px;
+  }
+
+  .logo-global img,
+  .logo-mobile {
+    width: 150px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+
+  .link {
+    padding: 0 22px;
+  }
 
   .link:first-child {
     padding: 0 22px 0 0;
-    border-left: none;
+  }
+
+  .link:last-child {
+    padding: 0 0 0 22px;
   }
 }
