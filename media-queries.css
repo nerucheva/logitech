@@ -40,14 +40,6 @@
 /* ******************* > 768px *********************** */
 
 @media all and (min-width: 768px) {
-  header {
-    padding: 54px 0 0;
-  }
-
-  header img {
-    width: 240px;
-  }
-
   .top {
     background-color: var(--bg-gray);
     padding: 159px 0 80px;
@@ -55,7 +47,6 @@
 
   .top__image {
     background-image: url(./img/img-01-mx-master-big.png);
-    background-size: contain;
     width: 100%;
     height: 514px;
   }
@@ -236,22 +227,13 @@
 /* ******************* > 1280px *********************** */
 
 @media all and (min-width: 1280px) {
-  header {
-    justify-content: flex-start;
-    background-color: var(--graphite);
-    padding: 28px 0 27px 61px;
-  }
-
-  header img {
-    width: 150px;
-  }
-
   .top {
     padding: 70px 0 56px;
   }
 
   .top__image {
     background-image: url(./img/img-01-mx-master-extra.png);
+    height: 671px;
   }
 
   .top p {

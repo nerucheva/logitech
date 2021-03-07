@@ -1,7 +1,7 @@
 /* ******************* < 1023px *********************** */
 
 .navbar {
-  background-color: var(--dark-gray);
+  background-color: var(--bg-gray);
 }
 
 .container-fluid {
@@ -162,7 +162,7 @@ button.navbar-toggler:focus:not(:focus-visible) {
 
   .logo-container {
     padding-left: 0;
-    width: 120px;
+    /* width: 120px; */
     flex: none;
   }
 
@@ -222,10 +222,6 @@ button.navbar-toggler:focus:not(:focus-visible) {
 
   .container-fluid {
     max-width: 1280px;
-  }
-
-  .logo-container {
-    width: 150px;
   }
 
   .logo-global img,
