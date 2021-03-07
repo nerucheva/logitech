@@ -1,4 +1,4 @@
-/* ******************* < 1023px *********************** */
+/* ******************* < 649px *********************** */
 
 .navbar {
   background-color: var(--bg-gray);
@@ -111,7 +111,7 @@ button.navbar-toggler:focus:not(:focus-visible) {
   color: var(--white);
 }
 
-/* ******************* > 992px *********************** */
+/* ******************* > 650px *********************** */
 
 @media all and (min-width: 650px) {
   .container-fluid {
@@ -162,7 +162,6 @@ button.navbar-toggler:focus:not(:focus-visible) {
 
   .logo-container {
     padding-left: 0;
-    /* width: 120px; */
     flex: none;
   }
 

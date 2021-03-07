@@ -18,10 +18,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./global_styles.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./media-queries.css" />
-    <link rel="stylesheet" href="./menu.css" />
+    <link rel="stylesheet" href="./00-global_styles.css" />
+    <!-- <link rel="stylesheet" href="/./00-menu.css"> -->
+    <link rel="stylesheet" href="./01-top.css" />
+    <link rel="stylesheet" href="./02-bluetooth.css" />
+    <link rel="stylesheet" href="./03-surface.css" />
+    <link rel="stylesheet" href="./04-usability.css" />
+    <link rel="stylesheet" href="./05-settings.css" />
+    <link rel="stylesheet" href="./06-advantages.css" />
+    <link rel="stylesheet" href="./07-footer.css" />
+    <link rel="stylesheet" href="menu.css">
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <!-- <link rel="stylesheet" href="./media-queries.css" /> -->
+    <!-- <link rel="stylesheet" href="./menu-refactor.css" /> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -29,8 +38,9 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="./scripts.js" defer></script>
 
-    <title>Logitech MX Master 3</title>
+    <title>REFACTOR Logitech MX Master 3</title>
   </head>
   <body>
     <header>
@@ -74,20 +84,24 @@
           <div class="collapse navbar-collapse no-transition collapsible-item">
             <div class="navbar-nav">
               <div class="link">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#top"
                   >работайте без проводов</a
                 >
               </div>
-              <div class="link"><a class="nav-link" href="#">где угодно</a></div>
-              <div class="link"><a class="nav-link" href="#">с комфортом</a></div>
               <div class="link">
-                <a class="nav-link" href="#">с разных устройств</a>
+                <a class="nav-link" href="#bluetooth">где угодно</a>
               </div>
               <div class="link">
-                <a class="nav-link" href="#">в любое время</a>
+                <a class="nav-link" href="#surface">с комфортом</a>
               </div>
               <div class="link">
-                <a class="nav-link" href="#">и ещё быстрее</a>
+                <a class="nav-link" href="#usability">с разных устройств</a>
+              </div>
+              <div class="link">
+                <a class="nav-link" href="#settings">в любое время</a>
+              </div>
+              <div class="link">
+                <a class="nav-link" href="#advantages">и ещё быстрее</a>
               </div>
             </div>
           </div>
@@ -96,7 +110,7 @@
     </header>
     <main>
       <section class="top screen hide">
-        <div class="top__image">
+        <div class="top__image" id="top">
           <h2 class="title">работайте продуктивнее</h2>
         </div>
 
@@ -123,7 +137,7 @@
 
         <div class="bluetooth__image content-width"></div>
       </section>
-      <section class="surface screen hide">
+      <section class="surface screen hide" id="surface">
         <h2 class="title">за любым столом</h2>
         <p class="text surface__text content-width">
           Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3
@@ -265,7 +279,6 @@
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
           </button>
           <button
             class="carousel-control-next"
@@ -274,7 +287,6 @@
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
           </button>
         </div>
         <h3 class="subtitle">Переключите поверхность</h3>
@@ -284,7 +296,7 @@
         </p>
       </section>
 
-      <section class="usability screen hide">
+      <section class="usability screen hide" id="usability">
         <h2 class="title content-width">одновременно с нескольких устройств</h2>
         <p class="text content-width">
           С технологией Flow вы сможете работать одновременно на нескольких
@@ -307,7 +319,7 @@
         </ol>
       </section>
 
-      <section class="settings screen hide">
+      <section class="settings screen hide" id="settings">
         <h2 class="title content-width">с индивидуальными настройками</h2>
         <p class="text settings__text content-width">
           Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря
@@ -437,7 +449,7 @@
         </div>
       </section>
 
-      <section class="advantages hide">
+      <section class="advantages hide" id="advantages">
         <div class="comfort screen">
           <div class="comfort-content">
             <h2 class="title advantages__title content-width">

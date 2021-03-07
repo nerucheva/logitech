@@ -1,0 +1,161 @@
+/* ******************* 320-649px *********************** */
+.settings {
+  background-color: var(--light-gray);
+  padding-top: 70px;
+}
+
+.settings__text {
+  padding: 20px 34px 35px;
+  margin: 0;
+}
+
+.settings__carousel {
+  margin: 0 0 20px;
+}
+
+.settings__carousel .carousel-item img {
+  height: 106vw;
+}
+
+.settings__carousel .carousel-indicators {
+  bottom: -65px;
+  width: 165px;
+}
+
+.settings__carousel .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  background-color: var(--dark-gray);
+}
+
+.settings__carousel .carousel-indicators .active {
+  background-color: var(--graphite);
+}
+
+.settings__image {
+  display: none;
+}
+
+.settings__programms {
+  background-color: var(--dark-gray);
+  width: 100vw;
+  margin-top: 60px;
+}
+
+.settings__programms-icons {
+  list-style-type: none;
+  padding: 23px 25px 0;
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.settings__programms-text {
+  margin: 0;
+  color: var(--white);
+  padding: 20px 34px 26px;
+}
+
+/* ******************* < 375px *********************** */
+@media all and (min-width: 375px) {
+  .settings__programms-icons {
+    width: 375px;
+  }
+}
+
+/* ******************* 650-991px *********************** */
+
+@media all and (min-width: 650px) {
+  .settings__text {
+    padding: 30px 60px 54px;
+  }
+
+  .settings__carousel .carousel-indicators {
+    width: 275px;
+  }
+
+  .settings__carousel .carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+  }
+
+  .settings__programms {
+    margin-top: 70px;
+  }
+
+  .settings__programms-icons {
+    padding: 38px 0 0;
+    width: 512px;
+    box-sizing: content-box;
+  }
+
+  .settings__programms-icons li img {
+    height: 35px;
+    width: auto;
+  }
+
+  .settings__programms-text {
+    margin: 0;
+    color: var(--white);
+    padding: 25px 34px 29px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+/* ******************* > 894px *********************** */
+
+@media all and (min-width: 894px) {
+  .settings__programms {
+    margin-bottom: 70px;
+    max-width: 765px;
+  }
+
+  .settings__programms-icons {
+    width: 512px;
+    box-sizing: content-box;
+  }
+}
+
+/* ******************* 992-1280px *********************** */
+
+@media all and (min-width: 992px) {
+  .settings__text {
+    padding: 38px 231px 54px;
+  }
+
+  #settings__slider {
+    display: none;
+  }
+
+  .settings__image {
+    display: block;
+    height: 53vw;
+    max-height: 640px;
+    width: 95vw;
+    background-image: url(./img/mouse-features.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .settings__programms {
+    margin-top: 0;
+    max-width: 749px;
+  }
+}
+
+/* ******************* > 1280px *********************** */
+
+@media all and (min-width: 1281px) {
+  .settings {
+    padding-top: 100px;
+  }
+
+  .settings__programms {
+    margin-bottom: 100px;
+  }
+}

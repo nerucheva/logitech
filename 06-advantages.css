@@ -1,0 +1,129 @@
+/* ******************* 320-649px *********************** */
+.advantages {
+  margin: auto;
+}
+
+.comfort__image {
+  background-image: url(./img/img-04-lifestyle-2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 83vw;
+}
+
+.speed__image {
+  background-image: url(./img/img-05-top.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 83vw;
+}
+
+.advantages__title {
+  padding-top: 70px;
+}
+
+.advantages__text {
+  padding: 20px 34px;
+  margin: 0;
+}
+
+/* ******************* 650-991px *********************** */
+
+@media all and (min-width: 650px) {
+  .comfort__image {
+    background-image: url(./img/img-04-lifestyle-2-big.jpg);
+    height: 61.5vw;
+  }
+
+  .speed__image {
+    background-image: url(./img/img-05-top-big.jpg);
+    height: 61.5vw;
+  }
+
+  .advantages__text {
+    padding: 30px 70px 50px;
+    max-width: 739px;
+  }
+}
+
+/* ******************* 992-1280px *********************** */
+
+@media all and (min-width: 992px) {
+  .comfort {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .comfort__image {
+    background-image: url(./img/img-04-lifestyle-2-extra.png);
+    background-size: cover;
+    width: 50%;
+    max-height: 557px;
+    background-position: center center;
+  }
+
+  .comfort-content {
+    width: 50%;
+  }
+
+  .comfort .advantages__title {
+    text-align: left;
+    width: 281px;
+    padding-left: 36px;
+    box-sizing: content-box;
+  }
+
+  .comfort .advantages__text {
+    padding-left: 36px;
+    text-align: left;
+    max-width: 420px;
+    box-sizing: content-box;
+  }
+
+  .speed {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .speed {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .speed-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+  }
+
+  .speed-content .advantages__title {
+    padding-right: 36px;
+    text-align: right;
+  }
+
+  .speed-content .advantages__text {
+    padding-right: 36px;
+    text-align: right;
+    max-width: 350px;
+    box-sizing: content-box;
+  }
+
+  .speed__image {
+    background-image: url(./img/img-05-top-extra.png);
+    width: 50%;
+    background-size: cover;
+    max-height: 557px;
+    background-position: center center;
+  }
+}
+
+/* ******************* > 1280px *********************** */
+
+@media all and (min-width: 1281px) {
+  .advantages {
+    padding: 100px 0;
+    max-width: 1280px;
+  }
+}

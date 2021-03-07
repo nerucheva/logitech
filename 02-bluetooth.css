@@ -1,0 +1,141 @@
+/* ******************* 320-649px *********************** */
+
+.bluetooth {
+  background-color: var(--light-gray);
+  padding: 42px 0 18px;
+}
+
+.bluetooth img {
+  height: 34px;
+}
+
+.bluetooth h2 {
+  padding: 27px 0 20px;
+}
+
+.bluetooth p {
+  padding: 0 34px 31px;
+  max-width: 307px;
+  margin: 0;
+}
+
+.big-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+}
+
+.big-text__number {
+  margin-right: 18px;
+}
+
+.bluetooth__image {
+  height: 218px;
+  width: 100vw;
+  background-image: url(./img/img-02-left-graphite.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+/* ******************* 650-991px *********************** */
+
+@media all and (min-width: 650px) {
+  .bluetooth {
+    padding: 80px 0 6px;
+  }
+
+  .bluetooth img {
+    height: 40px;
+  }
+
+  .bluetooth h2 {
+    padding: 39px 0 30px;
+  }
+
+  .bluetooth p {
+    padding: 0 34px 76px;
+    max-width: 740px;
+  }
+
+  .big-text {
+    font-size: 150px;
+    line-height: 176px;
+  }
+
+  .big-text__number {
+    margin-right: 44px;
+  }
+
+  .bluetooth__image {
+    background: url(./img/img-02-left-graphite-big.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+}
+
+@media all and (min-width: 775px) {
+  .bluetooth__image {
+    background: url(./img/img-02-left-graphite-big.png) no-repeat 39px;
+    background-size: contain;
+    height: 498px;
+    background-position: center center;
+
+  }
+}
+
+/* ******************* 992-1280px *********************** */
+
+@media all and (min-width: 992px) {
+  .bluetooth {
+    padding: 45px 0 48px;
+  }
+
+  .bluetooth h2 {
+    padding: 40px 0 35px;
+  }
+
+  .bluetooth p {
+    max-width: 761px;
+    padding: 0 34px 15px;
+  }
+
+  .big-text {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0 80px;
+  }
+}
+
+/* ******************* > 1280px *********************** */
+
+@media all and (min-width: 1280px) {
+  .bluetooth {
+    padding: 80px 0 69px;
+  }
+  .big-text .big-text__number {
+    font-size: 300px;
+    line-height: 352px;
+    margin-right: 0;
+  }
+
+  .big-text__days {
+    font-size: 96px;
+    line-height: 112px;
+    padding-top: 44px;
+  }
+
+  .bluetooth__image {
+    height: 307px;
+    width: 100vw;
+    margin-top: -232px;
+    background: url(./img/img-02-front-graphite-extra.png) no-repeat -19px 0,
+      url(./img/img-02-left-graphite-extra.png) no-repeat 607px 0;
+    background-size: contain;
+  }
+}

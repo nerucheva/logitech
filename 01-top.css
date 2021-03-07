@@ -1,0 +1,77 @@
+/* ******************* 320-649px *********************** */
+
+.top {
+  background-color: var(--bg-gray);
+  padding: 94px 0 48px;
+}
+
+.top__image {
+  background-image: url(./img/img-01-mx-master.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 230px;
+}
+
+.top__image h2 {
+  margin: 0 0 274px;
+}
+
+.top p {
+  margin: 67px 59px 48px;
+  max-width: 257px;
+}
+
+/* ******************* 650-991px *********************** */
+
+@media all and (min-width: 650px) {
+  .top {
+    background-color: var(--bg-gray);
+    padding: 159px 0 80px;
+  }
+
+  .top__image {
+    background-image: url(./img/img-01-mx-master-big.png);
+    background-size: contain;
+    width: 100%;
+    height: 514px;
+  }
+
+  .top__image h2 {
+    margin: 0 0 591px;
+  }
+
+  .top p {
+    margin: 124px 59px 76px;
+    max-width: 585px;
+  }
+}
+
+/* ******************* 992-1280px *********************** */
+
+@media all and (min-width: 992px) {
+  .top {
+    padding: 70px 0 56px;
+  }
+
+  .top__image {
+    background-image: url(./img/img-01-mx-master-extra.png);
+    height: 671px;
+  }
+
+  .top p {
+    margin: 8px 59px 49px;
+    max-width: none;
+  }
+
+  .top img {
+    height: 29px;
+  }
+}
+
+/* ******************* > 1281px *********************** */
+
+@media all and (min-width: 1281px) {
+  .top {
+    padding: 100px 0 80px;
+  }
+}

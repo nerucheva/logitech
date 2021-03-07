@@ -1,0 +1,99 @@
+/* ******************* SCREEN *********************** */
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ******************* TITLE *********************** */
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--graphite);
+}
+
+@media all and (max-width: 374px) {
+  .title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media all and (min-width: 650px) {
+  .title {
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+/* ******************* TEXT *********************** */
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--graphite);
+}
+
+@media all and (min-width: 650px) {
+  .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+/* ******************* CONTENT WIDTH *********************** */
+
+.content-width {
+  max-width: 375px;
+}
+
+@media all and (min-width: 650px) {
+  .content-width {
+    max-width: 768px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .content-width {
+    max-width: 1280px;
+  }
+}
+
+/* ******************* OVERFLOW HIDDEN *********************** */
+
+.hide {
+  overflow: hidden;
+}
+
+/* ******************* COLOUR VARIABLES *********************** */
+:root {
+  --white: #ffffff; /* just white */
+  --light-gray: #ededed; /* background gray */
+  --bg-gray: #e0e1e2; /*  */
+  --dark-gray: #c4c4c4; /* decorative heading, pale dots */
+  --graphite: #2f3132; /* title, texts, dark dots */
+}
