@@ -35,7 +35,7 @@
 }
 
 .carousel-indicators {
-  bottom: -122px;
+  bottom: -120px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -60,17 +60,21 @@
 .carousel-control-next,
 .carousel-control-prev {
   align-items: flex-end;
-  bottom: -92px;
+  -webkit-align-items: flex-end;
+  top: auto;
+  bottom: -90px;
   opacity: 1;
   width: 10%;
 }
 
 .carousel-control-prev {
   justify-content: flex-end;
+  -webkit-justify-content: flex-end;
 }
 
 .carousel-control-next {
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
 }
 
 .carousel-control-prev-icon,
@@ -100,7 +104,7 @@
 }
 
 .surface__text-bottom {
-  padding: 0 34px;
+  padding: 0 37px;
   margin: 0;
 }
 
@@ -115,12 +119,12 @@
   }
 
   .carousel-indicators {
-    width: 265px;
+    width: 250px;
   }
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: calc(50% - 155px);
+    width: calc(50% - 143px);
   }
 }
 
@@ -147,8 +151,8 @@
   }
 
   .carousel-indicators {
-    bottom: -169px;
-    width: 320px;
+    bottom: -167px;
+    width: 327px;
   }
 
   .carousel-indicators [data-bs-target] {
@@ -163,8 +167,8 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    bottom: -134px;
-    width: calc(50% - 185px);
+    bottom: -135px;
+    width: calc(50% - 189px);
   }
 
   .carousel-control-prev-icon,
@@ -197,6 +201,16 @@
   .surface .subtitle {
     font-size: 20px;
     line-height: 23px;
+    padding: 39px 0 88px;
+  }
+
+  .carousel-indicators {
+    bottom: -142px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    bottom: -109px;
   }
 
   .surface__text-bottom {
