@@ -9,6 +9,7 @@
 }
 
 /* ******************* SCREEN *********************** */
+
 .screen {
   display: flex;
   flex-direction: column;
@@ -17,6 +18,7 @@
 }
 
 /* ******************* TITLE *********************** */
+
 .title {
   font-family: "Roboto";
   font-style: normal;
@@ -51,6 +53,7 @@
 }
 
 /* ******************* TEXT *********************** */
+
 .text {
   font-family: "Roboto";
   font-style: normal;
@@ -100,6 +103,7 @@
 }
 
 /* ******************* COLOUR VARIABLES *********************** */
+
 :root {
   --white: #ffffff; /* just white */
   --light-gray: #ededed; /* background gray */

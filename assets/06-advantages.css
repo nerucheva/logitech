@@ -1,10 +1,11 @@
 /* ******************* 320-649px *********************** */
+
 .advantages {
   margin: auto;
 }
 
 .comfort__image {
-  background-image: url(./img/img-04-lifestyle-2.jpg);
+  background-image: url("./img/img-04-lifestyle-2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100vw;
@@ -12,7 +13,7 @@
 }
 
 .speed__image {
-  background-image: url(./img/img-05-top.jpg);
+  background-image: url("./img/img-05-top.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100vw;
@@ -32,12 +33,12 @@
 
 @media all and (min-width: 650px) {
   .comfort__image {
-    background-image: url(./img/img-04-lifestyle-2-big.jpg);
+    background-image: url("./img/img-04-lifestyle-2-big.jpg");
     height: 61.5vw;
   }
 
   .speed__image {
-    background-image: url(./img/img-05-top-big.jpg);
+    background-image: url("./img/img-05-top-big.jpg");
     height: 61.5vw;
   }
 
@@ -56,7 +57,7 @@
   }
 
   .comfort__image {
-    background-image: url(./img/img-04-lifestyle-2-extra.png);
+    background-image: url("./img/img-04-lifestyle-2-extra.png");
     background-size: cover;
     width: 50%;
     max-height: 557px;
@@ -86,11 +87,6 @@
     flex-direction: row;
   }
 
-  .speed {
-    display: flex;
-    flex-direction: row;
-  }
-
   .speed-content {
     display: flex;
     flex-direction: column;
@@ -111,7 +107,7 @@
   }
 
   .speed__image {
-    background-image: url(./img/img-05-top-extra.png);
+    background-image: url("./img/img-05-top-extra.png");
     width: 50%;
     background-size: cover;
     max-height: 557px;

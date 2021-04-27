@@ -1,4 +1,5 @@
 /* ******************* < 375px *********************** */
+
 @media all and (max-width: 374px) {
   .surface__features {
     padding: 0 10px 0;
@@ -27,12 +28,12 @@
 
 @media all and (min-width: 664px) {
   .comfort__image {
-    background-image: url(./img/img-04-lifestyle-2-big.jpg);
+    background-image: url("./img/img-04-lifestyle-2-big.jpg");
     height: 61.5vw;
   }
 
   .speed__image {
-    background-image: url(./img/img-05-top-big.jpg);
+    background-image: url("./img/img-05-top-big.jpg");
     height: 61.5vw;
   }
 }
@@ -46,7 +47,7 @@
   }
 
   .top__image {
-    background-image: url(./img/img-01-mx-master-big.png);
+    background-image: url("./img/img-01-mx-master-big.png");
     width: 100%;
     height: 514px;
   }
@@ -83,7 +84,7 @@
   }
 
   .bluetooth__image {
-    background: url(./img/img-02-left-graphite-big.png) no-repeat 39px;
+    background: url("./img/img-02-left-graphite-big.png") no-repeat 39px;
     background-size: contain;
     height: 498px;
   }
@@ -113,11 +114,7 @@
     width: 320px;
   }
 
-  .carousel-indicators [data-bs-target] {
-    width: 40px;
-    height: 40px;
-  }
-
+  .carousel-indicators [data-bs-target],
   .carousel-indicators [data-bs-target] img {
     width: 40px;
     height: 40px;
@@ -232,7 +229,7 @@
   }
 
   .top__image {
-    background-image: url(./img/img-01-mx-master-extra.png);
+    background-image: url("./img/img-01-mx-master-extra.png");
     height: 671px;
   }
 
@@ -268,8 +265,8 @@
     height: 307px;
     width: 100vw;
     margin-top: -232px;
-    background: url(./img/img-02-front-graphite-extra.png) no-repeat 17px 0,
-      url(./img/img-02-left-graphite-extra.png) no-repeat 597px 0;
+    background: url("./img/img-02-front-graphite-extra.png") no-repeat 17px 0,
+      url("./img/img-02-left-graphite-extra.png") no-repeat 597px 0;
   }
 
   .big-text .big-text__number {
@@ -311,7 +308,7 @@
   }
 
   .usability {
-    background-image: url(./img/img-03-lifestyle-1-extra.png);
+    background-image: url("./img/img-03-lifestyle-1-extra.png");
   }
 
   .usability p {
@@ -334,7 +331,7 @@
     display: block;
     height: 640px;
     width: 100vh;
-    background-image: url(./img/mouse-features.png);
+    background-image: url("./img/mouse-features.png");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -350,7 +347,7 @@
   }
 
   .comfort__image {
-    background-image: url(./img/img-04-lifestyle-2-extra.png);
+    background-image: url("./img/img-04-lifestyle-2-extra.png");
     background-size: cover;
     width: 50%;
     max-height: 557px;
@@ -379,11 +376,6 @@
     flex-direction: row;
   }
 
-  .speed {
-    display: flex;
-    flex-direction: row;
-  }
-
   .speed-content {
     display: flex;
     flex-direction: column;
@@ -404,7 +396,7 @@
   }
 
   .speed__image {
-    background-image: url(./img/img-05-top-extra.png);
+    background-image: url("./img/img-05-top-extra.png");
     width: 50%;
     background-size: cover;
     max-height: 557px;
@@ -430,10 +422,7 @@
     max-width: 1280px;
   }
 
-  .usability {
-    padding-top: 100px;
-  }
-
+  .usability,
   .settings {
     padding-top: 100px;
   }

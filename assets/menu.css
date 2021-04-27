@@ -25,10 +25,7 @@
   height: auto;
 }
 
-.navbar {
-  padding: 0;
-}
-
+.navbar,
 .navbar-brand {
   padding: 0;
 }
