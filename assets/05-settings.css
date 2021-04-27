@@ -1,4 +1,5 @@
 /* ******************* 320-649px *********************** */
+
 .settings {
   background-color: var(--light-gray);
   padding-top: 70px;
@@ -53,6 +54,11 @@
   justify-content: space-between;
 }
 
+.settings__programms-icons li img {
+  height: 22px;
+  width: auto;
+}
+
 .settings__programms-text {
   margin: 0;
   color: var(--white);
@@ -60,6 +66,7 @@
 }
 
 /* ******************* < 375px *********************** */
+
 @media all and (min-width: 375px) {
   .settings__programms-icons {
     width: 375px;
@@ -99,7 +106,6 @@
 
   .settings__programms-icons li img {
     height: 35px;
-    width: auto;
   }
 
   .settings__programms-text {
@@ -141,7 +147,7 @@
     height: 53vw;
     max-height: 640px;
     width: 95vw;
-    background-image: url(./img/mouse-features.png);
+    background-image: url("./img/mouse-features.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

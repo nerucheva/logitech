@@ -6,7 +6,7 @@
 }
 
 .top__image {
-  background-image: url(./img/img-01-mx-master.png);
+  background-image: url("./img/img-01-mx-master.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 230px;
@@ -30,7 +30,7 @@
   }
 
   .top__image {
-    background-image: url(./img/img-01-mx-master-big.png);
+    background-image: url("./img/img-01-mx-master-big.png");
     background-size: contain;
     width: 100%;
     height: 514px;
@@ -54,7 +54,7 @@
   }
 
   .top__image {
-    background-image: url(./img/img-01-mx-master-extra.png);
+    background-image: url("./img/img-01-mx-master-extra.png");
     height: 671px;
   }
 

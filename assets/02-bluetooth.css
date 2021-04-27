@@ -37,7 +37,7 @@
 .bluetooth__image {
   height: 218px;
   width: 100vw;
-  background-image: url(./img/img-02-left-graphite.png);
+  background: url("./img/img-02-left-graphite.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -73,7 +73,7 @@
   }
 
   .bluetooth__image {
-    background: url(./img/img-02-left-graphite-big.png) no-repeat;
+    background: url("./img/img-02-left-graphite-big.png") no-repeat;
     background-size: contain;
     background-position: center center;
   }
@@ -81,11 +81,10 @@
 
 @media all and (min-width: 775px) {
   .bluetooth__image {
-    background: url(./img/img-02-left-graphite-big.png) no-repeat 39px;
+    background: url("./img/img-02-left-graphite-big.png") no-repeat 39px;
     background-size: contain;
     height: 498px;
     background-position: center center;
-
   }
 }
 
@@ -134,8 +133,8 @@
     height: 307px;
     width: 100vw;
     margin-top: -232px;
-    background: url(./img/img-02-front-graphite-extra.png) no-repeat -19px 0,
-      url(./img/img-02-left-graphite-extra.png) no-repeat 607px 0;
+    background: url("./img/img-02-front-graphite-extra.png") no-repeat -19px 0,
+      url("./img/img-02-left-graphite-extra.png") no-repeat 607px 0;
     background-size: contain;
   }
 }
