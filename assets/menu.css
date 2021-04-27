@@ -78,7 +78,7 @@ button.navbar-toggler:focus:not(:focus-visible) {
 
 .navbar-nav {
   align-items: center;
-  padding: 148px 0 0;
+  padding: 80px 0 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
